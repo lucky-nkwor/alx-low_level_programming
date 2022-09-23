@@ -12,10 +12,12 @@ for (a = 0; c[a] != '\0'; a++)
 {
 for (b = 0; b <= 9; b++)
 {
-if (c[a] == letters[b])								{
+if (c[a] == letters[b])
+{
 c[a] = rep[b / 2];
 b = 9;
 }
-}										}
+}										
+}
 return (c);
 }
