@@ -17,6 +17,7 @@ while (i < sizer)
 if (i % (size + 1) == 0)
 sum += a[i];
 i++;
+}
 printf("%d, ", sum);
 sum = 0;
 i = 0;
